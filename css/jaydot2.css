@@ -1,0 +1,71 @@
+div.carousel-inner > div.carousel-item > img {
+    width: 100%;
+}
+
+h1.section-caption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+h2.content-box-caption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+section:nth-of-type(2) {
+    background: url('../images/Slide-4.png') no-repeat center / cover;
+}
+
+section:nth-of-type(4) {
+    background: url('../images/Slide-2.png') no-repeat center / cover;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #24221F;
+}
+
+section.vertical-scrolling {
+    width: 100%;
+    height: 700px;
+}
+
+div.blue-content {
+    margin-top: 5em;
+    background: #2aabd2;
+}
+
+div.white-content {
+    margin-top: 5em;
+    background: #ffffff;
+}
+
+div.green-content {
+    margin-top: 5em;
+    background: #2b542c;
+    color: #ffffff;
+}
+
+div.orange-content {
+    margin-top: 5em;
+    background: #eb9316;
+}
+
+p.center-text {
+    text-align: center;
+}
